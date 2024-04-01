@@ -35,9 +35,6 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
-  name = "Daniel Correia"
-
 [blackfriday]
   hrefTargetBlank = true
 
@@ -153,7 +150,7 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   
   [params.portrait]
-    path     = "/img/avatar.png"
+    path     = "/img/avatar.jpg"
     alt      = "Portrait"
     maxWidth = "200px"
 
@@ -175,12 +172,14 @@ disableHugoGeneratorInject = false
     url  = "https://www.linkedin.com/in/danielvcorreia/"
 
 [languages]
-  [languages.en]
+  [languages.en.params]
+    author = "Daniel Vala Correia"
     subtitle  = "danielvcorreia"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.pt]
+  [languages.pt.params]
+    author = "Daniel Vala Correia"
     subtitle  = "danielvcorreia"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
