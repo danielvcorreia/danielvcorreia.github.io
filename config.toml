@@ -9,7 +9,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = "G-FZ931PHGC2"
+googleAnalytics = "G-FZ931PHGC2"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
